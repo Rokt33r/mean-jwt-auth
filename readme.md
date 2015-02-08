@@ -14,7 +14,7 @@ gulp
 mkdir storage
 mongod --dbpath="storage"
 ```
-> If you want to use MongoDB, check `server.js`.
+> If you want to use another MongoDB, check `server.js`.
 
 ### 3. Run Server
 ``` bash

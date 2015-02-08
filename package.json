@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.6.5",
+    "cors": "^2.4.1",
+    "express": "^4.8.5",
+    "express-jwt": "^0.3.1",
+    "jsonwebtoken": "^1.1.2",
+    "method-override": "^2.3.1",
+    "mongoose": "^3.8.23",
+    "morgan": "^1.2.3",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "globby": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-angular-templatecache": "^1.5.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-livereload": "^3.7.0",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-sass": "^1.3.2",
+    "gulp-template": "^2.1.0",
+    "merge-stream": "^0.1.7",
+    "run-sequence": "^1.0.2"
+  }
+}

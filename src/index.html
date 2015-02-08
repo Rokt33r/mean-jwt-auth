@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="myapp">
+<head>
+    <meta charset="utf-8">
+    <title>Task</title>
+
+    <!-- styles start -->
+    <% styles.forEach( function(file){ %>
+    <link rel="stylesheet" type="text/css" href="<%= file%>"/>
+    <% }); %>
+    <!-- styles end -->
+
+</head>
+<body>
+<div class="container">
+    <ui-view></ui-view>
+</div>
+
+<!-- scripts start -->
+<% scripts.forEach( function(file){ %>
+<script src="<%= file%>"></script>
+<% }); %>
+<!-- scripts end -->
+</body>
+</html>
